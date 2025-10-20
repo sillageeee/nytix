@@ -123,7 +123,7 @@ else
         end
         if not evade then
             pcall(function()
-                game.Players.LocalPlayer:Kick("Argon Hub X It is not in the list of supported games\n".. (gameName or "Unknown Game"))
+                game.Players.LocalPlayer:Kick("Nytix Hub X It is not in the list of supported games\n".. (gameName or "Unknown Game"))
             end)
         end
     end)
